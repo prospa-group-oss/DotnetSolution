@@ -1,7 +1,5 @@
 <Project>  
 
-	<Import Project="..\version.props" />
-	
 	<PropertyGroup>		
 		<RepositoryType>git</RepositoryType>		
 		<CodeAnalysisRuleSet>..\..\Prospa.ruleset</CodeAnalysisRuleSet>		
