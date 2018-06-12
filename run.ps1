@@ -15,7 +15,6 @@ $SrcKeep = Join-Path $RootPath "src\.gitkeep"
 $TestKeep = Join-Path $RootPath "test\.gitkeep"
 $SolutionFile = Join-Path $RootPath "Solution.sln"
 $DotSettingsFile = Join-Path $RootPath "Solution.sln.DotSettings"
-$RulesetFile = Join-Path $RootPath "Solution.ruleset"
 $CommonPropsFile = Join-Path $RootPath "build\common.props"
 $ReadMe = Join-Path $RootPath "README.md"
 $InitScript = Join-Path (Get-Item $MyInvocation.MyCommand.Path).DirectoryName "run.ps1"
@@ -34,9 +33,6 @@ Write-Host "Updated $($DotSettingsFile).sln.DotSettings"
 
 Rename-Item $DotSettingsFile "$($SolutionName).sln.DotSettings"
 Write-Host "Renamed $DotSettingsFile to $($SolutionName).sln.DotSettings"
-
-Rename-Item $RulesetFile "$($SolutionName).ruleset"
-Write-Host "Renamed $RulesetFile to $($SolutionName).ruleset"
 
 (Get-Content $CommonPropsFile).replace($SolutionNameKey, $SolutionName) | Set-Content $CommonPropsFile
 Write-Host "Updated common.props"

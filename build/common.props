@@ -4,7 +4,7 @@
 	
 	<PropertyGroup>		
 		<RepositoryType>git</RepositoryType>		
-		<CodeAnalysisRuleSet>..\..\#Solution#.ruleset</CodeAnalysisRuleSet>		
+		<CodeAnalysisRuleSet>..\..\Prospa.ruleset</CodeAnalysisRuleSet>		
 		<LangVersion>Latest</LangVersion>
 	</PropertyGroup>  
 

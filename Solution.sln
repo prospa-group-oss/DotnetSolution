@@ -6,10 +6,12 @@ MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D1B3D0B9-B93B-4406-90C0-6C9F72260CFA}"
 	ProjectSection(SolutionItems) = preProject
 		build\common.props = build\common.props
-		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5013710F-4ACA-484F-9C6A-1BE1ECCF2876}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1891DFDC-F151-47E2-9888-EC2D87B1CB99}"
 EndProject
@@ -17,9 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		Directory.Build.props = Directory.Build.props
-		global.json = global.json		
-		#Solution#.ruleset = #Solution#.ruleset
+		global.json = global.json
+		Prospa.ruleset = Prospa.ruleset
 		README.md = README.md
 		stylecop.json = stylecop.json
 		version.props = version.props
@@ -39,7 +40,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1B3D0B9-B93B-4406-90C0-6C9F72260CFA} = {522B4A53-5BC7-48A6-8BDE-BD0EE14D8515}
-		{CA1C612E-D7F4-4F1E-98F7-E7F22A2489BA} = {522B4A53-5BC7-48A6-8BDE-BD0EE14D8515}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1F74479-B491-497E-984B-D9AB84AEB436}
