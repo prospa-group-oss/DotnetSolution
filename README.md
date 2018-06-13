@@ -4,6 +4,8 @@ Creates a new visual studio solution including directory structure and common fi
 
 ## How to use
 
+### Install .Core sdk version set in global.json
+
 ### Prepare a new directory for the solution and clone the source
 
 ```console
