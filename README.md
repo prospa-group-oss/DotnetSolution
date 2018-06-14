@@ -4,7 +4,9 @@ Creates a new visual studio solution including directory structure and common fi
 
 ## How to use
 
-### Install .Core sdk version set in global.json
+### Install the .NET Core SDK
+
+The .NET Core SDK version specified in `global.json` will need to be [installed](https://www.microsoft.com/net/download/dotnet-core/).
 
 ### Prepare a new directory for the solution and clone the source
 
