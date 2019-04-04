@@ -11,16 +11,13 @@ The .NET Core SDK version specified in `global.json` will need to be [installed]
 #### Prepare a new directory for the solution and clone the source
 
 ```console
-mkdir MyNewSolution
-cd MyNewSolution
-git init .
-git remote add origin git@github.com:prospa-group/DotnetSolution.git
-git pull origin master
+git clone git@github.com:prospa-group/DotnetSolution.git MyNewSolution
 ```
 
 #### Run the setup script in a new Powershell shell
 
 ```powershell
+cd MyNewSolution
 .\run.ps1 "MyNewSolution"
 ```
 
